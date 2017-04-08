@@ -1,8 +1,36 @@
 
-ul {
-  list-style-type: none;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/background.jpg");
+    background-size: cover;
 }
 
-li {
-  display: inline;
+h1 {
+    font-family: 'Gloria Hallelujah', serif;
 }
+
+h2 {
+    font-family: 'Gloria Hallelujah', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#header li {
+    display: inline-block;
+}
+
+#footer li {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+
+li {}
