@@ -1,43 +1,49 @@
 <!--Created by Jiachen Jiang, Spring 2017
-fonts from Google Fonts, icons from FontAwesome-->
+fonts from Google Fonts, icons from FontAwesome, button shrink animation
+from https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/-->
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>https://slack.com/</title>
+    <title>Welcome to my twisted mind</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="img/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div id="header">
-        <a href=#>cs52 lab 1</a>
+        <a href=#>CS52 Lab 1</a>
         <div class="sidelist">
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li><button>Give me validation!</button></li>
+                <a href="#">KAF</a>
+                <a href="#">The Hop</a>
+                <a href="#">Collis</a>
+                <a href="#">Foco</a>
+                <a href="#">Food Truck</a>
+                <li><button>Give me food!</button></li>
             </ul>
         </div>
 
     </div>
-    <h1> You have landed on Jiachen's page!  <span style="color:red">*</span></h1>
-    <h2> <span style="color:red">*</span> Created for CS52 Lab 1</h2>
-    <form action=#>
-        <!--adapted from w3schools-->
-        <input type="text" name="email" value="Email address">
-        <div id="formbutton">
-            <button>Get Started</button>
+    <div id="center">
+
+
+        <h1> You have landed on Jiachen's page!  <span style="color:red">*</span></h1>
+        <h2> <span style="color:red">*</span> Created for CS52 Lab 1</h2>
+        <form action=#>
+            <!--adapted from w3schools-->
+            <input type="text" name="email" value="Email address"> &nbsp;
+            <div id="formbutton">
+                <button>Get Started</button>
+            </div>
+        </form>
+        <div id="signup">
+            <p> Already know me? </p>
+            <a href=#>Click here to experience instant death!</a>
         </div>
-    </form>
-    <div id="signup">
-        <p> Already know me? </p>
-        <a href=#>Click here to experience instant death!</a>
+        <br />
     </div>
-    <br />
 
     <div id="links">
         <div class="linklist">
@@ -97,12 +103,12 @@ fonts from Google Fonts, icons from FontAwesome-->
     <span>
     <footer>
         <div id="footer">
-        <a href=#>Icon</a>
+        <a href=#><i class="fa fa-usd fa-2x" aria-hidden="true"></i></a>
         <div class="sidelist">
             <ul>
                 <li>Contact</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
+                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
             </ul>
         </div>
         </div>
