@@ -5,115 +5,111 @@ from https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/-
 <html>
 
 <head>
-    <title>Welcome to my twisted mind</title>
+    <title>Welcome one and all!</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="img/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
-    <div id="header">
-        <a href=#>CS52 Lab 1</a>
-        <div class="sidelist">
-            <ul>
-                <a href="#">KAF</a>
-                <a href="#">The Hop</a>
-                <a href="#">Collis</a>
-                <a href="#">Foco</a>
-                <a href="#">Food Truck</a>
-                <li><button>Give me food!</button></li>
-            </ul>
-        </div>
-
+    <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                 <li><a class="smooth_intro" href="#intro_link" >Intro</a></li>
+                 <li><a class="smooth_about" href="#about_link" >About</a></li>
+                 <li><a class="smooth_activities" href="#activities_link" >Activities</a></li>
+             </ul>
+     </div>
+    </nav>
     </div>
-    <div id="center">
-
-
-        <h1> You have landed on Jiachen's page!  <span style="color:red">*</span></h1>
-        <h2> <span style="color:red">*</span> Created for CS52 Lab 1</h2>
-        <form action=#>
-            <!--adapted from w3schools-->
-            <input type="text" name="email" value="Email address"> &nbsp;
-            <div id="formbutton">
-                <button>Get Started</button>
+    <div class="container">
+        <div id="intro" class="center-align">
+            <div id="gap">
+                <a id="intro_link" class="smooth"></a>
             </div>
-        </form>
-        <div id="signup">
-            <p> Already know me? </p>
-            <a href=#>Click here to experience instant death!</a>
-        </div>
-        <br />
-    </div>
+            <h1 >Hey, it's Jiachen.</h1>
+            <h4 >Here's my little hub of existential angst on the Internet. </h4>
 
-    <div id="links">
-        <div class="linklist">
-            <ul>
-                <li>LINK HEAD 1
-                </li>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-            </ul>
-        </div>
-        <div class="linklist">
-            <ul>
-                <li>LINK HEAD 2</li>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-            </ul>
-        </div>
-        <div class="linklist">
-            <ul>
-                <li>LINK HEAD 3</li>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-            </ul>
-        </div>
-        <div class="linklist">
-            <ul>
-                <li>LINK HEAD 4</li>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-            </ul>
-        </div>
-        <div class="linklist">
-            <ul>
-                <li>LINK HEAD 5</li>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-            </ul>
-        </div>
-    </div>
-    </span> <br />
+            <div class="divider "></div>
 
-    <span>
-    <footer>
-        <div id="footer">
-        <a href=#><i class="fa fa-usd fa-2x" aria-hidden="true"></i></a>
-        <div class="sidelist">
-            <ul>
-                <li>Contact</li>
-                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-            </ul>
+            <h5  id="just_kidding" onmouseover="showAside()">Feel free to stay a while!<font color="red">*</font></h6>
+            <h6  id="no_really"><font color="red">*</font>I love new friends!</h6>
         </div>
+
+        <div id="about">
+            <a id="about_link" class="smooth"></a>
+            <h5>So, uh, I guess if you're here already, I can tell you a bit about myself?</h5>
+
+            <p>I'm a first year student here at Dartmouth College, located in the bustling metropolitan city of Hanover, NH.
+            I come from Walnut, California, which straddles the boundaries between LA and the OC.</p>
+
+            <p>Currently (as that is always the keyword when it comes to Dartmouth and majors) I am majoring in <b>Computer Science
+            modified with Digital Arts</b>, so I can take those Studio Art classes without receiving several Concerned Parent Lectures.
+            With the amount of time I spend excitedly talking about, well, anything from cool new ways to tell stories and create narratives
+            (video games! code! fan fiction!) to the popularity of cultural medias in an international context, I am also majoring in
+            <b>Comparative Literature</b>.</p>
+
+            <p>I've taken <b>CS52</b> Full-Stack Web Development, <b>CS50</b> Software Engineering, and <b>CS10</b> in my time at Dartmouth.  I'm getting in more
+            into design in general, so I spend a lot of time messing around with Illustrator and Figma/Sketch.  </p>
+
+            <p>I'm more about making specific technologies that are in collaboration with other fields (literature, art, scientific research.)  That's because I think <b>programming and tech is most
+            important when they are combined with other things</b>, improving or solving long-existing problems in topics like sustainability, human interaction, etc.</p>
+            <br />
         </div>
-    </footer>
-</div>
+
+        <div id="activities">
+            <a id="activities_link" class="smooth"></a>
+            <h5> Here are some things I do on campus: </h5>
+            <br />
+            <div class="center-align container">
+                <img id="woodsmen" class="hoverable" src="img/woodsmen_before.jpg" onclick="this.src = this.src == offImg ? onImg : offImg;"/>
+                <p id="woodsmen_description" onmouseover="makeWoodSmaller()">Here is my lumberjack team and I.  We make wood smaller, even when there is snow.  Click the picture to see who I am!</p>
+            </div>
+            <div class="center-align container">
+                <img id="tiltfactor" class="hoverable" src="img/tiltfactor.png" />
+                <p id="tiltfactor_description">Over the past year, I've worked as a game developer at Tiltfactor Lab, creating games that focus on social benefit
+                using languages/engines like Twine, JS, and Unity.</p>
+            </div>
+            <div class="center-align container">
+                <img id="susty" class="hoverable" src="img/sugaring.jpg" />
+                <p>I work as an Ecorep intern at the Sustainability Office, where I do everything from maple sugaring (making maple syrup) over spring break to
+                set up art displays about renewable energy in Foco.  Remember: no food in the recycling bin.  </p>
+                <p>If you can eat it, it is compostable!!!</p>
+            </div>
+            <br />
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://rawgit.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js"></script>
+    <script>
+    $('.smooth_intro').on('click', function() {
+            console.log('hi');
+            $('html, body').animate({
+            scrollTop: $('#intro').offset().top
+        }, 2000);
+    });
+    $('.smooth_about').on('click', function() {
+            console.log('hi');
+            $('html, body').animate({
+            scrollTop: $('#about').offset().top
+        }, 2000);
+    });
+    $('.smooth_activities').on('click', function() {
+            console.log('hi');
+            $('html, body').animate({
+            scrollTop: $('#activities').offset().top
+        }, 2000);
+    });
+    </script>
 </body>
 
 </html>

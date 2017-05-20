@@ -1,148 +1,58 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-    background-image: url("img/background.jpg");
-    background-size: cover;
-    color: white;
-    text-shadow: black 0px 0px 10px;
+  background-color: rgb(235, 92, 0);
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-h1 {
-    justify-content: center;
-    display: flex;
-    padding-top: 50px;
+#gap {
+  padding-top: 56px;
 }
 
-h2 {
-    justify-content: center;
-    display: flex;
+#intro {
+  padding-top: 56px;
+  height: 500px;
 }
 
-form {
-    display: flex;
-    justify-content: center;
+#about {
+  padding-top: 56px;
+  height: 500px;
 }
 
-input {
-    padding: 12px 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+#activities {
+  padding-top: 56px;
+  height: 500px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    padding-left: 10px;
-    transition: all .2s ease-in-out;
+#woodsmen {
+  width: 540px;
+  height: 358px;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-decoration: none;
+#tiltfactor {
+
 }
 
-.linklist {
-    display: inline-flex;
+#susty {
+  width: 540px;
+  height: 405px;
 }
 
-.sidelist {
-    display: inline-flex;
-    padding-right: 10px;
-    justify-content: space-around;
+.BeforeScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: none;
 }
 
-#links {
-    display: flex;
-    justify-content: center;
-}
-
-#header {
-    display: flex;
-    justify-content: space-between;
-    align-content: baseline;
-    font-size: 125%;
-}
-
-#header li {
-    display: inline-flex;
-    padding: 5px;
-}
-
-#footer li {
-    display: inline-flex;
-    padding: 10px;
-}
-
-#footer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-top: 100px;
-    align-items: center;
-}
-
-#signup {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-#links {
-    display: flex;
-    align-content: flex-end;
-    justify-content: space-around;
-    padding-top: 120px;
-}
-
-#center {
-    border: 2px solid white;
-    border-radius: 10px;
-    margin: 80px;
-}
-
-button {
-    background-color: transparent;
-    outline: none;
-    border-radius: 10px;
-    border: 2px solid white;
-    padding: 15px 32px;
-    text-align: center;
-    text-shadow: black 0px 0px 10px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    color: white;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.63);
-    transition: all .2s ease-in-out;
-}
-
-button:hover {
-    transform: scale(0.95);
-}
-
-a:hover {
-    transform: scale(0.95);
-}
-
-ul {
-    list-style-type: none;
-}
-
-@media only screen and (max-width: 640px) {
-    body {
-        background-color: red;
-    }
-    #center {
-        flex-direction: column;
-    }
-    #heading li {
-        display: none;
-    }
+.AfterScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: block;
 }
